@@ -1,0 +1,40 @@
+.tooltip{
+    padding: 50px;
+    position: relative;
+}
+.tooltip-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(43, 230, 6);
+}
+.tooltip>:nth-child(2){
+    position: absolute;
+    border: 1px solid red;
+    background-color: orangered;
+}
+.top{
+    left: 46.5%;
+    top: 4%;
+}
+.bottom{
+    left: 45.5%;
+    top: 45%;
+}
+.left{
+    left: 37%;
+    top: 60%;
+}
+.right{
+    left: 56%;
+    top: 90%;
+}
