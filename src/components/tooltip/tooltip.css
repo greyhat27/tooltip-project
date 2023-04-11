@@ -1,40 +1,55 @@
 .tooltip{
     padding: 50px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .tooltip-btn{
     display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
+    position: relative;
 }
 .btn{
     width: 150px;
     height: 50px;
     font-size: 20px;
     cursor: pointer;
+    border: none;
+    background-color: #ff6f00;
+    color: white;
 }
 .btn:hover{
     background-color: rgb(43, 230, 6);
+    color: white;
 }
-.tooltip>:nth-child(2){
+.tooltip-btn>:nth-child(5){
     position: absolute;
-    border: 1px solid red;
-    background-color: orangered;
+    background-color: #ff6f00;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 3px;
 }
 .top{
-    left: 46.5%;
-    top: 4%;
+    top: -10%;
 }
 .bottom{
-    left: 45.5%;
-    top: 45%;
+    top: 44.5%;
 }
 .left{
-    left: 37%;
+    left: -79%;
     top: 60%;
 }
 .right{
-    left: 56%;
-    top: 90%;
+    right: -85%;
+    top: 88.5%;
+}
+.tooltip>:nth-child(2){
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
 }
