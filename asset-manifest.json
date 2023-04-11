@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tooltip-project/static/css/main.9f2c6bf7.css",
-    "main.js": "/tooltip-project/static/js/main.2d08ad39.js",
+    "main.css": "/tooltip-project/static/css/main.1ad03afc.css",
+    "main.js": "/tooltip-project/static/js/main.2f560444.js",
     "index.html": "/tooltip-project/index.html",
-    "main.9f2c6bf7.css.map": "/tooltip-project/static/css/main.9f2c6bf7.css.map",
-    "main.2d08ad39.js.map": "/tooltip-project/static/js/main.2d08ad39.js.map"
+    "main.1ad03afc.css.map": "/tooltip-project/static/css/main.1ad03afc.css.map",
+    "main.2f560444.js.map": "/tooltip-project/static/js/main.2f560444.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f2c6bf7.css",
-    "static/js/main.2d08ad39.js"
+    "static/css/main.1ad03afc.css",
+    "static/js/main.2f560444.js"
   ]
 }
